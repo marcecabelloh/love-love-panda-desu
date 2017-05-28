@@ -2,7 +2,129 @@
 Colores & tipografía: 
 Verde - #ABE188;
 Rosa - #F78E69;
-font-family: 'Raleway', sans-serif;
+
 */
 
 /* Escribe tu código acá debajo */
+
+*{
+	margin: 0; /* permite mantener todos los márgenes ocupados y que nav ocupe por completo el alto y ancho de la pantalla*/
+	padding: 0; /* permite que los elementos contenidos partan de cero*/
+	font-family: 'Raleway', sans-serif;
+	box-sizing: border-box;
+}
+
+
+header{
+	background-color: #F78E69;
+	color: white;
+	width: 100%;
+	height: 100px;
+	
+}
+
+header h1{
+	text-align: right;
+	margin-right: 80px;
+	padding-top: 20px;
+}
+
+header p{
+	text-align:right;
+	margin-right: 80px;
+	font-size: 12px;
+	padding-top: 5px;
+}
+
+/*darle tamaño y posicionar la imagen de fondo*/
+.imagen1{
+	background-size: cover; 
+	width: 100%;
+	background-position: center;
+	box-sizing: border-box;
+}
+
+.box-uno{
+	background-color: #F78E69;
+	padding-bottom: 30px;/*necesario para que el fondo de color rosado sobre y se junte con el color verde de la prox caja*/
+}
+
+.caja{
+	background-color: #ABE188;
+	padding: 80px;/*generar espacion entre caja de texto y caja verde de fondo*/
+}
+
+/*características para formar caja de texto al medio de la caja color verde*/
+.cuadro-panda{
+	background-color: #F78E69;
+	width: 500px;
+	height: 400px;
+	padding: 50px;
+	display: block;
+	margin: 20px auto;
+	color: white;/*color letras texto caja texto*/
+	
+}
+
+/*alinear el titulo presente en caja texto*/
+.cuadro-panda h2{
+	text-align: center;
+
+}
+
+/* margen entre título y parrafo*/
+.cuadro-panda p{
+	margin-top: 10px;
+}
+
+.imagen2{
+	background-size: cover; 
+	width: 100%;
+	background-position: center;
+	box-sizing: border-box;
+}
+
+.box-dos{
+	background-color: #F78E69;
+	padding-top: 30px;/*necesario para que el fondo de color rosado sobre y se junte con la caja de arriba */
+	padding-bottom: 30px;/*necesario para que el fondo de color rosado sobre y se junte con el color verde de la prox caja*/
+}
+
+.caja2{
+	background-color: #ABE188;
+	padding: 80px;/*generar espacion entre caja de texto y caja verde de fondo*/
+}
+
+
+/*alinear el titulo presente en caja texto*/
+.pictures-panda h3{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+
+}
+
+.imagen3{
+	background-size: cover; 
+	width: 100%;
+	background-position: center;
+	box-sizing: border-box;
+}
+
+.box-tres{
+	background-color: #F78E69;
+	padding-top: 30px; /*necesario para que el fondo de color rosado sobre y se junte con la caja de arriba */
+	padding-bottom: 30px;/*necesario para que el fondo de color rosado sobre y se junte con el color verde de la prox caja*/
+}
+
+.caja3{
+	background-color: #ABE188;
+	padding: 80px;/*generar espacion entre caja de texto y caja verde de fondo*/
+}
+
+footer p{
+	background-color: #F78E69;
+	text-align: right;
+	color: white;
+
+}
